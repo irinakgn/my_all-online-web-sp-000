@@ -1,5 +1,5 @@
 require 'pry'
 
 def my_all?(collection)
-  collection.all? {|word| word.length < 3}
+collection.any? {|a| a % 2 == 0} 
 end
