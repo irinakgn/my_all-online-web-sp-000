@@ -1,5 +1,5 @@
 require 'pry'
 
 def my_all?(collection)
-  collection.any? {|a| a % 2 == 0} 
+  collection.any? {|a| a < 4} 
 end
